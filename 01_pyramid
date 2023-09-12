@@ -2,8 +2,9 @@ blocks = int(input("type in the number of blocks you have"))
 height = 0
 mould = 0
 while blocks >  mould:
-    blocks -= height+1
-    mould +=1
     height += 1
+    blocks -= height
+    mould +=1
+    
 
-print(height,mould,blocks)
+print(height)
