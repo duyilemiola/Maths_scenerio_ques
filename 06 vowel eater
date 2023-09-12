@@ -1,0 +1,19 @@
+letter = input("type in a word")
+
+n=0
+for words in letter:
+    n+=1
+    print(n)
+    
+
+    if words == "a":
+        continue
+    if words == "e":
+        continue
+    if words == "i":
+        continue
+    if words == "o":
+        continue
+    if words == "u":
+        continue
+    print (words,end=" " )
