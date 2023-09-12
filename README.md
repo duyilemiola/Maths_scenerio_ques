@@ -153,4 +153,17 @@ Your task is to help the magician complete the code in the editor in such a way 
 •	will use a while loop;
 •	will check whether the number entered by the user is the same as the number picked by the magician. If the number chosen by the user is different than the magician's secret number, the user should see the message "Ha ha! You're stuck in my loop!" and be prompted to enter a number again. If the number entered by the user matches the number picked by the magician, the number should be printed to the screen, and the magician should say the following words: "Well done, muggle! You are free now."
 .
+Scenario 06 vowel eater
+Your task here is even more special than before: you must redesign the (ugly) vowel eater from the previous lab and create a better, upgraded (pretty) vowel eater! Write a program that uses:
+
+a for loop;
+the concept of conditional execution (if-elif-else)
+the continue statement.
+Your program must:
+
+ask the user to enter a word;
+use user_word = user_word.upper() to convert the word entered by the user to upper case; we'll talk about string methods and the upper() method very soon - don't worry;
+use conditional execution and the continue statement to "eat" the following vowels A, E, I, O, U from the inputted word;
+assign the uneaten letters to the word_without_vowels variable and print the variable to the screen.
+Look at the code in the editor. We've created word_without_vowels and assigned an empty string to it. Use concatenation operation to ask Python to combine selected letters into a longer string during subsequent loop turns, and assign it to the word_without_vowels variable
 
